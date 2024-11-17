@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family:inherit;
+    color:beige;
+    margin-bottom: -80px; /*distância entre título principal e subtítilo*/
+   
+    background: linear-gradient(45deg, #f19f1b, #e67e22); /*listra no título*/
+    text-shadow: 12px 12px 15px rgba(0, 0, 0, 0.6);
+    
+}
+.temporadas {
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+    
+a {
+    color: #f1c40f;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 2x;
+    line-height: 5.5;
+    text-shadow: 2px 2px 8px #f19f1b;
+    background: linear-gradient(45deg, #f19f1b, #e67e22); /*listra na imagem e título*/
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    text-transform: uppercase; /* Transforme as letras em maiúsculas */
+    text-decoration: none; /*remover o underline*/
+    color: beige;
+}   
+img {
+    margin-top: -80px; /*distância entre o texto e a imagem*/
+ }
