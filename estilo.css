@@ -46,3 +46,6 @@ body {
  img {
      margin-top: -80px; /*distância entre o texto e a imagem*/
   }
+div:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
