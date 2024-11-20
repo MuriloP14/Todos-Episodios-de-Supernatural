@@ -16,8 +16,7 @@ h1 {
     font-family:inherit;
     color:beige;
     margin-bottom: 80px; /*distância entre título principal e subtítilo*/
-    background: linear-gradient(45deg, #f19f1b, #e67e22); /*listra no título*/
-    text-shadow: 12px 12px 15px rgba(0, 0, 0, 0.6);
+    background-color: #f19f1b;
     
 }
 h2 {
@@ -37,14 +36,35 @@ a {
     letter-spacing: 2x;
     line-height: 5.5;
     text-shadow: 2px 2px 8px #f19f1b;
-    background: linear-gradient(45deg, #f19f1b, #e67e22); /*listra na imagem e título*/
+    background-color: #f19f1b;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
     border-radius: 7px;
     text-transform: uppercase; /* Transforme as letras em maiúsculas */
     text-decoration: none; /*remover o underline*/
     color: beige;
+
+}
+a:hover{
+    background-color: #d66807;
 }
 img {
     width: 400px;
     height: 250px;
 }
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+   background-color: #f19f1b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  button:hover {
+    background-color: #d66807;
+  }
+  button i {
+    font-size: 18px;
+  }
