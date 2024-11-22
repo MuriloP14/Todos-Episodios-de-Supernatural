@@ -1,74 +1,84 @@
+/* Fundo e estilo geral */
 body {
     background-image: url(fundo.jpg);
-    background-position-x: initial;
-     background-position-y: initial;
-     background-size: initial;
-     background-repeat: initial;
-     background-attachment: initial;
-     background-origin: initial;
-     background-clip: initial;
-     background-color: rgb(0, 0, 0)
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    color: beige;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
     font-size: 75px;
-    font-family:inherit;
-    color:beige;
-    margin-bottom: 80px; /*distância entre título principal e subtítilo*/
+    color: beige;
     background-color: #f19f1b;
+    margin-bottom: 40px;
+    padding: 20px;
     text-transform: uppercase;
-    
-}
-h2 {
-    margin-bottom: -80px;
-    font-size: 58px;
-}
-h3 {
-    margin-top: -30px;
-    font-size: 40px;
-  }
-.temporadas {
-    display: block;
-    text-align: center;
-    margin-top: 60px;
-}
-a {
-    color: #f1c40f;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    letter-spacing: 2x;
-    line-height: 5.5;
-    text-shadow: 2px 2px 8px #f19f1b;
-    background-color: #f19f1b;
-    border-radius: 7px;
-    text-transform: uppercase; /* Transforme as letras em maiúsculas */
-    text-decoration: none; /*remover o underline*/
-    color: beige;
-
 }
 
-img {
-    width: 400px;
-    height: 250px;
-    margin-top: -30px;
-}
 button {
+    background-color: #f19f1b;
     color: beige;
-    padding: 10px 20px;
-    font-size: 32px;
-   background-color: #f19f1b;
+    font-size: 24px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-  button:hover {
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+button:hover {
     background-color: #d66807;
-  }
-  button i {
-    font-size: 36px;
-  }
+}
+
+.temporadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.episodio {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.episodio img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.episodio h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.assistir {
+    display: inline-block;
+    background-color: #f19f1b;
+    color: beige;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.assistir:hover {
+    background-color: #d66807;
+}
