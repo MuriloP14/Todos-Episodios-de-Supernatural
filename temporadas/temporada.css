@@ -57,7 +57,7 @@ img {
 button {
     color: beige;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 32px;
    background-color: #f19f1b;
     border: none;
     border-radius: 5px;
@@ -70,5 +70,5 @@ button {
     background-color: #d66807;
   }
   button i {
-    font-size: 18px;
+    font-size: 36px;
   }
