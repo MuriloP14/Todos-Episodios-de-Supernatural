@@ -1,102 +1,46 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Corpo e fontes */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-image: url('temporadas/fundo.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Cabeçalho */
-header h1 {
-    font-size: 3rem;
-    background-color: rgba(241, 159, 27, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/* Temporadas */
-.temporadas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.temporada {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    padding: 15px;
-    width: 300px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-}
-
-.temporada img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.temporada h2 {
-    font-size: 1.5rem;
-    margin: 10px 0;
-}
-
-button {
+    background-image: url(temporadas/fundo.jpg);
+ }
+ h1 {
+     text-align: center;
+     font-size: 75px;
+     font-family:inherit;
+    color: beige;
+     margin-bottom: -80px; /*distância entre título principal e subtítilo*/
     background-color: #f19f1b;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+ }   
+ h2 {
+    font-size: 58px;
+ }
+ h3 {
+    margin-top: -30px;
+    font-size: 40px;
 
-button:hover {
-    background-color: #d98915;
-}
+ }
 
-/* Botão Carregar Mais */
-#loadMore {
-    margin-top: 20px;
-    padding: 15px 30px;
-    font-size: 1.2rem;
+ .temporadas {
+     display: block;
+     text-align: center;
+     margin-top: 60px;
+ }
+ a {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2x;
+    line-height: 5.5;
     background-color: #f19f1b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    text-transform: uppercase; /* Transforme as letras em maiúsculas */
+    text-decoration: none;
+    color: beige;
+    
+
 }
 
-#loadMore:hover {
-    background-color: #d98915;
-}
-
-/* Rodapé */
-footer {
-    margin-top: 40px;
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .temporada {
-        width: 100%;
-    }
-
+ img {
+     margin-top: -160px; /*distância entre o texto h2 e a imagem*/
+ }
     header h1 {
         font-size: 2rem;
     }
