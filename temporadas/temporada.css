@@ -1,13 +1,13 @@
 body {
     background-image: url(fundo.jpg);
     background-position-x: initial;
-     background-position-y: initial;
-     background-size: initial;
-     background-repeat: initial;
-     background-attachment: initial;
-     background-origin: initial;
-     background-clip: initial;
-     background-color: rgb(0, 0, 0)
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(0, 0, 0)
 }
 
 h1 {
@@ -58,7 +58,7 @@ button {
     color: beige;
     padding: 10px 20px;
     font-size: 16px;
-   background-color: #f19f1b;
+    background-color: #f19f1b;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -66,9 +66,9 @@ button {
     align-items: center;
     gap: 10px;
   }
-  button:hover {
+button:hover {
     background-color: #d66807;
   }
-  button i {
+button i {
     font-size: 18px;
   }
